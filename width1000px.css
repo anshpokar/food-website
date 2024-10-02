@@ -1,0 +1,101 @@
+@media screen and (width <=1010px){
+    .navigation{
+        margin-left: 20px;
+    }
+    .hungry{
+        z-index: 2;
+    }
+    .are_u_hungry{
+        margin-left: -50px;
+        font-size: 45px;
+        margin-top: 50px;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+    .hungry_para{
+        margin-left: -10px;
+        font-size: 26px;
+        font-weight: 500;
+        width: 650px;
+        margin-top: -50px;
+        width: 600px;
+        height: fit-content;
+    }
+    .image{
+        margin-left: -100px;
+        z-index: 1;
+    }
+    .image img{
+        width: 26.625rem;
+        height: 20.875rem;
+        margin-right: 0px;
+        margin-left: -10px;
+        display: flex;
+        z-index: 1;
+    }
+    .make_a_dish_button{
+        position:absolute;
+        right: 0;
+        bottom: 160px;
+    }
+
+
+    .salad1{
+        width: 245px;
+        height: 243px;
+        margin-left: 28px;
+        margin-top: -1px;
+    }
+    .salad2{
+        width: 245px;
+        height: 243px;
+        margin-left: 28px;
+    }
+    .salad3{
+        width: 333px;
+        height: 269px;
+        margin-left: 1px;
+    }
+    .eat_healthy_everyday{
+        margin-left: 60px;
+    }
+    .EAT_HEALTHY_CONTENT{
+        margin-left: -60px;
+        margin-right: 30px;
+    }
+
+
+    .drinks img{
+        width: 480px;
+        height: 431px;
+        margin-left: 4px;
+        margin-top: 190px;
+    }
+    .drinks_content{
+        margin-left: -90px;
+    }
+    .cheers{
+        margin-top: -100px;
+        font-size: 55px; 
+        width: fit-content ;
+    }
+    .cheers_content{
+        width:fit-content;
+        margin-left: 60px;
+        display: flex;
+    }
+
+    .aboutus_content{
+        width: fit-content;
+        padding-left: 50px;
+        padding-right: 50px;
+        z-index: 2;
+    }
+
+    .dishes_scrolling{
+        z-index: 1;
+        margin-top: 50px;
+    }
+
+}

@@ -1,0 +1,435 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Chelsea+Market&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-track{
+    background-color:transparent;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:  rgb(248, 195, 4);
+    border-radius: 10px;
+}
+.section1{
+    background-image: url(images/background.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 49.375rem;
+    /* box-shadow: inset 0 10px 100px -5px rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    /* position: absolute; */
+    top: 0%;
+    left:0%;
+    width: 100%;
+    /* background-color: blue; */
+    /* box-sizing: border-box; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo1{
+    padding-top: 0.6875rem;
+    padding-left: 3.375rem;
+}
+.logo{
+    width: 8.9375rem;
+    display: flex;
+}
+.navigation{
+    /* background-color: aqua; */
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-right: 5.9375rem;
+    font-family: "actor" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-left: 400px;
+    margin-right: 120px;
+}
+.navigation a{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    /* border-bottom: #ffc637; */
+}
+.navigation a:after{
+    content: "";
+    position: absolute;
+    background-color:#ffc637;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;  
+}
+.nav:hover{
+    /* text-decoration: none; */
+    filter: drop-shadow(10px 10px 20px rgb(227, 192, 19));
+}
+
+
+
+.sec1_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hungry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.are_u_hungry{
+    /* background-color: red; */
+    display: flex;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #3A2222E5;
+    text-align: center;
+    width:714px;
+    height: 120px;
+    margin-left: 84px;
+    justify-content: center;
+}
+.hungry_para{
+    /* background-color: red; */
+    display: flex;
+    font-family: "actor" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3A2222E5;
+    text-align: center;
+    font-size:  26px;
+    line-height: 31.28px;
+    width:714px;
+    height: 120px;
+    margin-left: 84px;
+    justify-content: center;
+}
+.image img{
+    /* background-color: black; */
+    width: 32.875rem;
+    height: 27.125rem;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.make_a_dish_button{
+    text-align: end;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.make_a_dish_button img{
+    background-color: blue;
+    position: relative;
+    width: 398px;
+    height: 103px;
+    cursor: pointer;
+}
+.make_a_dish{
+    /* background-color: aquamarine; */
+    position: absolute;
+    margin-top: -20px;
+    bottom: 20px;
+    right: 80px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #3A2222E5;
+}
+
+
+
+.section2{
+    background-image: url(images/background2.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 49.375rem;
+    /* box-shadow: inset 0 10px 100px -5px rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: row;
+}
+.salad{
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    /* background-color: blue; */
+}
+.salad img{
+    
+}
+.salad1{
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    width: 302px;
+    height: 283px;
+    margin-left: 48px;
+    filter:  drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5))
+}
+.salad2{
+    /* background-color: blue; */
+    width: 302px;
+    height: 283px;
+    margin-left: 73px;
+    filter:  drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5)) ; 
+}
+.salad3{
+    /* background-color: aqua; */
+    width: 390px;
+    height: 309px;
+    margin-left: 219px;
+    filter:  drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5))
+}
+
+.salad_content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.eat_healthy_everyday{
+    width: 467px;
+    height: 170px;
+    margin-left: 100px;
+    display: flex;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #3A2222E5;
+    text-align: center;
+}
+.EAT_HEALTHY_CONTENT{
+    display: flex;
+    /* position: fixed; */
+    font-family: "actor" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3A2222E5;
+    text-align: center;
+    font-size:  26px;
+    line-height: 31.28px;
+    width: 690px;
+    height: 110px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.make_a_meal{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.make_a_meal img{
+    width: 322px;
+    height: 98px;
+    position: relative;
+    margin-left: -120px;
+    margin-top: 90px;
+}
+.make_a_meal_text{
+    /* background-color: blue; */
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #3A2222E5;
+    margin-top: 80px;
+    margin-left: -100px;
+}
+
+
+
+.section3{
+    background-image: url(images/background3.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 49.375rem;
+    /* box-shadow: inset 0 10px 100px -5px rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: row;
+}
+.drinks img{
+    width: 611px;
+    height: 521px;
+    margin-left: 54px;
+    margin-top: 150px;
+    filter: drop-shadow(5px 15px 10px rgba(0, 0, 0, 0.5));
+}
+.drinks_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cheers{
+    display: flex;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #3A2222E5;
+    text-align: center;
+}
+.cheers_content{
+    display: flex;
+    font-family: "actor" , sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #3A2222E5;
+    text-align: center;
+    font-size:  26px;
+    line-height: 31.28px;
+    width: 655px;
+    height: 110px;
+    margin-left: 87px;
+    margin-top: 20px;
+}
+
+
+.section4{
+    background-image: url(images/background4.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 49.375rem;
+    /* box-shadow: inset 0 10px 100px -5px rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    /* white-space: nowrap; */
+}
+.aboutus{
+    display: flex;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #3A2222E5;
+    text-align: center;
+    margin-top: 80px;
+}
+.aboutus_content{
+    display: flex;
+    font-family: "actor" , sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #3A2222E5;
+    text-align: center;
+    font-size:  26px;
+    line-height: 31.28px;
+    width: 1304px;
+    height: 341px;
+    margin-top: 10px;
+}
+
+.dishes_scrolling{
+    white-space: nowrap;
+}
+.dish_images{
+    display: inline-block;
+    margin-top: -40px;  
+}
+.dish_images img{
+    height: 261px;
+}
+footer{
+    height: 313px;
+    width: 100%;
+    background-color: #000000C7;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer img{
+    width: 227px;
+    height: 188px;
+    margin-top: 38px;
+}
+ footer ul,h1{
+    color: #FFFFFF;
+ }
+ footer li{
+    list-style-type: none;
+ }
+footer ul,li{
+    line-height: 30px;
+}
+ .about h1,.contactus h1,.services h1,.followus h1{
+    border-bottom: 2px solid #FFFFFF;
+ }
+
+ .insta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border-width: 0;
+    padding: 0;
+
+ }
+ .insta img{
+    width: 20px;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 6px;
+    /* background-color:aqua; */
+
+ }
+ .insta p{
+    /* background-color: azure;  */
+ }
+
+ .about,.services,.contactus,.followus{
+    margin-top: 50px;
+ }
+
+
+
+
+
+
+

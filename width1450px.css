@@ -1,0 +1,65 @@
+@media screen and (width <=1450px){
+    .navigation{
+        margin-left: 200px;
+    }
+    .are_u_hungry{
+        margin-left: 10px;
+    }
+    .hungry_para{
+        margin-left: -10px;
+    }
+    .image img{
+        margin-right: 0px;
+        margin-left: -10px;
+    }
+
+
+    .salad1{
+        width: 245px;
+        height: 243px;
+        margin-left: 28px;
+    }
+    .salad2{
+        width: 245px;
+        height: 243px;
+        margin-left: 53px;
+    }
+    .salad3{
+        width: 333px;
+        height: 269px;
+        margin-left: 109px;
+    }
+    .eat_healthy_everyday{
+        margin-left: 60px;
+    }
+    .EAT_HEALTHY_CONTENT{
+        margin-left: -60px;
+        margin-right: 30px;
+    }
+
+
+    .drinks img{
+        width: 521px;
+        height: 471px;
+        margin-left: 34px;
+        margin-top: 150px;
+    }
+    .drinks_content{
+        margin-left: -90px;
+    }
+    .cheers{
+        font-size: 55px; 
+        /* font-weight: 600; */
+    }
+    .cheers_content{
+        margin-left: 60px;
+        display: flex;
+    }
+
+    .aboutus_content{
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}

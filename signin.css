@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Chelsea+Market&family=Kalam:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Chelsea+Market&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  /* white-space: nowrap; */
+}
+header {
+  /* background-color: black; */
+  /* opacity: 0.6; */
+  /* color: black; */
+  /* z-index: 1; */
+}
+nav {
+  position: absolute;
+  background-color: #050503e5;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  /* box-sizing: border-box; */
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  z-index: 20;
+}
+.logo1 {
+  padding-top: 0px;
+  padding-left: 3.375rem;
+}
+.logo {
+  width: 100px;
+  display: flex;
+}
+.navigation {
+  /* background-color: aqua; */
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  margin-right: 5.9375rem;
+  font-family: "actor", sans-serif;
+  font-weight: 400;
+  font-size: small;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.75rem;
+  margin-left: 400px;
+  margin-right: 120px;
+}
+.navigation a {
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  /* opacity: 1; */
+}
+
+.fullpage {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  /* white-space: nowrap; */
+}
+.content {
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 521px;
+  background-image: url(images/background5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ready_to_serve p {
+  width: 320px;
+  height: 108px;
+  margin-top: 141px;
+  font-size: 43px;
+  display: flex;
+  text-align: center;
+  margin-left: 70px;
+}
+.chhef {
+  width: 422px;
+  height: 412px;
+  /* margin-left: 200px; */
+  margin-bottom: -100px;
+  z-index: 210;
+}
+
+.form_background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* white-space: nowrap; */
+  z-index: 150;
+  width: 1115px;
+  height: 100vh;
+  background-color: #ffc637;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-left: -100px;
+}
+.whole_form{
+    margin-top: -100px;
+}
+.signup_text {
+  display: inline-flex;
+  margin-top: 132px;
+  /* margin-left: -570px;  */
+  /* background-color: white; */
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.name input {
+  /* margin-left: 110px; */
+  margin-top: 25px;
+  width: 689px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  /* border-color: black; */
+  color: #897b7b;
+  font-size: 20px;
+}
+#lastname{
+    margin-left:50px;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+}
+.password input,button {
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  /* border-color: black; */
+  color: #897b7b;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.password button{
+    background-color: #423b3b;
+    color: aliceblue;
+    margin-bottom: 15px
+}
+
+.form_background p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.form_background a{
+    color: #FF3131;
+    text-decoration: none;
+    margin-left: 5px;
+}
