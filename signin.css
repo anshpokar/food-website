@@ -178,3 +178,14 @@ nav {
     text-decoration: none;
     margin-left: 5px;
 }
+
+.section{
+  display: flex;
+  /* justify-content: end; */
+}
+
+.forget_password{
+  display: flex;
+  justify-content: end;
+  margin-left: 235px;
+}
