@@ -109,9 +109,9 @@ nav{
 .display{
     display: flex;
     top: -10px;
-    width: 100px;
+    width: 1500px;
     height: 35rem;  
-    /* background-color: #ffc637; */
+    overflow-y:scroll;
 }
 .sidebar{
     display: flex;
@@ -187,6 +187,8 @@ nav{
     margin-top: -1.5rem;
 }
 
+.display{
 
+}
 
 
