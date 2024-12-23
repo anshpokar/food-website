@@ -18,7 +18,7 @@
                 <a class="nav" href="">MAKE A SALAD</a>
                 <a class="nav" href="">DRINKS</a>
                 <a class="nav" href="">CUISINE</a>
-                <a class="nav" href=""><img src="images/cart.png" alt=""></a>
+                <a class="nav js-cart" href="" ><img src="images/cart.png" alt=""></a>
               </div>
             </nav>
         </header> 
@@ -28,45 +28,68 @@
                 <!-- <p>What's On Your Mind</p> -->
                 <div class="sidebar_link" id="pizza">
                     <img src="images/pizza.png" alt="">
-                    <div>Pizza</div>
+                    <button class="js-pizzaBtn"
+                    onclick="loadPizzaCard();">Pizza</button>
                 </div>
                 <div class="sidebar_link" id="burger">
                     <img src="images/burger.png" alt="">
-                    <div>Burger</div>
+                    <button class="js-BurgerBtn"
+                    onclick="loadBurgerCard();">Burger</button>
                 </div>
                 <div class="sidebar_link" id="dosa">
                     <img src="images/dosa.png" alt="">
-                    <div>Dosa</div>
+                    <button class="js-DosaBtn"
+                    onclick="loadDosaCard();">Dosa</button>
                 </div>
                 <div class="sidebar_link" id="fries">
                     <img src="images/fries.png" alt="">
-                    <div>Fries</div>
+                    <button class="js-FriesBtn"
+                    onclick="loadFriesCard();">Fries</button>
                 </div>
                 <div class="sidebar_link" id="ice_cream">
                     <img src="images/ice_cream.png" alt="">
-                    <div>Ice cream</div>
+                    <button class="js-IceCreamBtn"
+                    onclick="loadIceCreamCard();">Ice Cream</button>
                 </div>
                 <div class="sidebar_link" id="momos">
                     <img src="images/momos.png" alt="">
-                    <div>Momos</div>
+                    <button class="js-MomosBtn"
+                    onclick="loadMomosCard();">Momos</button>
                 </div>
                 <div class="sidebar_link" id="cake">
                     <img src="images/cake.png" alt="">
-                    <div>Cake</div>
+                    <button class="js-CakeBtn"
+                    onclick="loadCakeCard();">Cake</button>
                 </div>
                 <div class="sidebar_link" id="paneer">
                     <img src="images/paneer.png" alt="">
-                    <div>Paneer</div>
+                    <button class="js-PaneerBtn"
+                    onclick="loadPaneerCard();">Paneer</button>
                 </div>
                 <div class="sidebar_link" id="salad">
                     <img src="images/saladd.png" alt="">
-                    <div>Salad</div>
+                    <button class="js-SaladBtn"
+                    onclick="loadSaladCard();">Salad</button>
                 </div>
             </section>
             <div class="display">
-                
+                <div class="card">
+                    <!-- <div class="image">
+                        <img src="${burger_image[i]}" alt="">
+                    </div>
+                    <div class="item_name">
+                        <h1>${burger_name[i]}</h1>
+                    </div>
+                    <div class="item_discription">
+                        <p>${burger_disc[i]}</p>
+                    </div>
+                    <div class="add_to_cart_btn">
+                        <button onclick="js_add_to_cart()">Add To Cart</button>
+                    </div> -->
+            </div>
             </div>
         </section>
     </section>
+    <script src="scripts/explore.js"></script>
 </body>
 </html>

@@ -81,6 +81,11 @@ nav{
 .navigation img {
     height: 35px;
     width: 35px;
+    /* background-color: #ffc637; */
+}
+.js-cart p {
+    font-size: 5rem;
+    font-weight: bold;
 }
 
 .section1 p{
@@ -106,13 +111,7 @@ nav{
     display: flex;
     flex-direction: row;
 }
-.display{
-    display: flex;
-    top: -10px;
-    width: 1500px;
-    height: 35rem;  
-    overflow-y:scroll;
-}
+
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -141,32 +140,52 @@ nav{
     font-weight: 100;
     font-size: xx-large;
 }
-#burger div{
-    margin-top: -2rem;
+.sidebar_link button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* margin-left: 6rem; */
+    margin-top: -1rem;
+    font-family:cursive;
+    font-weight: 100;
+    font-size: xx-large;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
+
 #burger img{
     margin-left: 2.5rem;
 }
-#cake div{
+#burger button{
+    margin-left: 5rem;
     margin-top: -2rem;
 }
+
 #cake img{
     margin-left: 3rem;
 }
-#dosa div{
-    margin-top: -1.5rem;
+#cake button{
+    margin-left: 6.5rem;
+    margin-top: -2rem;
+}
+#dosa button{
+    margin-left: 6rem; 
+    margin-top: -1.5rem; 
 }
 #dosa img{
     margin-left: 3rem;
 }
-#paneer div{
+#paneer button{
     margin-top: -1.5rem;
+    margin-left: 6rem;
 }
 #paneer img{
     margin-left: 3rem;
 }
-#salad div{
+#salad button{
     margin-top: -1.5rem;
+    margin-left: 6.5rem;
 }
 #salad img{
     margin-left:3rem;
@@ -174,21 +193,84 @@ nav{
 #momos img{
     margin-left: 3rem;
 }
+#momos button{
+    margin-left: 6rem;
+}
 #pizza img{
     margin-left: 3rem;
+}
+#pizza button{
+    margin-left: 6rem;
 }
 #fries img{
     margin-left: 2.7rem;
 }
-#fries div{
+#fries button{
     margin-top: -2.5rem;
+    margin-left:6rem;
 }
-#ice_cream div{
+#ice_cream button{
     margin-top: -1.5rem;
+    margin-left: 4rem;
+    
 }
+
 
 .display{
-
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    top: -10px;
+    width: 1500px;
+    height: 35rem;  
+    overflow-y:scroll;
+    row-gap: 30px;
 }
+.card{
+    display: flex;
+    height: 275px;
+    width: 250px;
+    margin-left: 40px;
+    /* background-color:red; */
+    /* opacity: 0.5; */
+    backdrop-filter: blur(2px);
+    backface-visibility: hidden;
+    border-radius: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+.image img{
+    height: 153px;
+    width: 143px;
+    opacity: 1;
+    /* margin-left: -5px; */
+}
+.item_name h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+}
+.item_discription{
+    /* background-color: aliceblue; */
+    margin-left: -10px;
+    /* text-align: center; */
+    padding-right: 29px; 
+}
+.item_discription p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.add_to_cart_btn button{
+    background-color: #ffc637;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 110px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+
 
 
