@@ -58,6 +58,6 @@ function loadBurgerCard(){
 let cartQuantity=0;
 function js_add_to_cart(){
     cartQuantity++;
-    quantity_display=`<img src="images/cart.png" alt=""><p>=  ${cartQuantity}</p>`
+    quantity_display=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
     document.querySelector('.js-cart').innerHTML=quantity_display;
 }

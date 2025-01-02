@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Chelsea+Market&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(images/background5.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: inset 0 10px 100px -5px rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    /* position: fixed; */
+    top: 0%;
+    left:0%;
+    width: 100%;
+    /* background-color: blue; */
+    /* box-sizing: border-box; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo1{
+    padding-top: 0.6875rem;
+    padding-left: 4.300rem;
+}
+.logo{
+    width: 8.9375rem;
+    display: flex;
+}
+.navigation{
+    /* background-color: aqua; */
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-right: 5.9375rem;
+    font-family: "actor" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-left: 400px;
+    margin-right: 120px;
+}
+.navigation a{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-bottom: #ffc637;
+}
+/* .navigation a:after{
+    content: "";
+    position: absolute;
+    background-color:#ffc637;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;  
+} */
+.navigation a:hover {
+    text-decoration: underline #ffc637;
+    transition: all  ease-in-out;
+}
+
+.nav:hover{
+    /* text-decoration: none; */
+    filter: drop-shadow(10px 10px 20px rgb(227, 192, 19));
+}
+
+.navigation img {
+    height: 35px;
+    width: 35px;
+    /* background-color: #ffc637; */
+}
+.js-cart p {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.section1 p{
+    font-size: 1.5rem;
+    padding-left: 2.30rem;
+}
+
+.navigation p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 18px;
+    margin-left: 27rem;
+}
+
+.checkout-grid{
+    display: flex;
+    flex-direction: row;
+}
+
+.order-summary{
+    width:1100px;
+    height:575px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    /* margin-left: 50px; */
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+.cart-item-container{
+    width: 450px;
+    height:200px;
+    /* background-color: #ffc637; */
+    /* filter: drop-shadow(); */
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+}
+.cart-item-details-grid{
+    display: flex;
+    align-items: center;
+}
+.cart-item-img{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    height:200px;
+}
+.cart-item-img img{
+    height: 150px;
+}
+
+.product-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-price{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(91, 11, 11);
+    font-weight: bold;
+    font-size: 20px;
+}
+.product-quantity{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.product-quantity button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 25px;
+    border: none;
+    width: 70px;
+    border-radius: 50px;
+    margin:0;
+    cursor: pointer;
+}
+.update-quantity{
+    background-color: #ffc637;
+    color: black;
+}
+.delete-quantity{
+    background-color: rgb(115, 19, 19);
+    color: aliceblue;
+}
+
+.payment-summary{
+    height: 450px;
+    width: 350px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.payment-summary-title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.payment-summary-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.total-row{
+    border-top: solid rgb(138, 131, 131);
+    padding-top: 15px;
+    color:rgb(91, 11, 11);
+    font-size: 27px;
+}
+
+.payment-summary button {
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.place-order-button{
+    background-color: #ffc637;
+}
+
+.explore-more{
+    background-color:rgb(91, 11, 11);
+    color: aliceblue;
+    margin-top: 10px;
+}
+.explore-more a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+  

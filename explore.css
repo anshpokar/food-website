@@ -59,33 +59,25 @@ nav{
     color: black;
     border-bottom: #ffc637;
 }
-/* .navigation a:after{
-    content: "";
-    position: absolute;
-    background-color:#ffc637;
-    height: 3px;
-    width: 100%;
-    left: 0;
-    bottom: -10px;  
-} */
+
 .navigation a:hover {
     text-decoration: underline #ffc637;
     transition: all  ease-in-out;
 }
 
-.nav:hover{
-    /* text-decoration: none; */
-    filter: drop-shadow(10px 10px 20px rgb(227, 192, 19));
-}
-
 .navigation img {
+    position: relative;
     height: 35px;
     width: 35px;
     /* background-color: #ffc637; */
 }
-.js-cart p {
-    font-size: 5rem;
-    font-weight: bold;
+.quantity-count {
+    position: absolute;
+    background-color: #ffc637;
+    border-radius: 100rem;
+    width: 2rem;
+    top: 2.5rem;
+    right: 6.5rem;
 }
 
 .section1 p{
@@ -94,10 +86,6 @@ nav{
 }
 
 .sidebar{
-    /* background-image: url(images/background5.png); */
-    /* position: fixed; */
-    /* position: absolute; */
-    /* background-color: aqua;       */
     left: 0;
     bottom: 0;
     top: 9.375rem;
