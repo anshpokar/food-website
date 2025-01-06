@@ -236,6 +236,11 @@ nav{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+.price{
+    color: rgb(241, 32, 32);
+    font-weight: bold;
+    margin-left: -40px;
+}
 .add_to_cart_btn button{
     background-color: #ffc637;
     border-radius: 5px;
@@ -245,7 +250,7 @@ nav{
     font-size: 18px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor:pointer;
 }
 
