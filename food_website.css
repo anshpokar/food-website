@@ -26,17 +26,13 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 49.375rem;
-    /* box-shadow: inset 0 10px 100px -5px rgba(0, 0, 0, 0.5); */
     display: flex;
     flex-direction: column;
 }
 nav{
-    /* position: absolute; */
     top: 0%;
     left:0%;
     width: 100%;
-    /* background-color: blue; */
-    /* box-sizing: border-box; */
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -50,7 +46,6 @@ nav{
     display: flex;
 }
 .navigation{
-    /* background-color: aqua; */
     display: flex;
     flex: 1;
     justify-content: flex-end;
@@ -69,23 +64,13 @@ nav{
     text-align: center;
     text-decoration: none;
     color: black;
-    /* border-bottom: #ffc637; */
 }
-/* .navigation a:after{
-    content: "";
-    position: absolute;
-    background-color:#ffc637;
-    height: 3px;
-    width: 100%;
-    left: 0;
-    bottom: -10px;  
-} */
+
 .navigation a:hover {
     text-decoration: underline #ffc637;
     transition: all  ease-in-out;
 }
 .nav:hover{
-    /* text-decoration: none; */
     filter: drop-shadow(10px 10px 20px rgb(227, 192, 19));
 }
 .navigation img {

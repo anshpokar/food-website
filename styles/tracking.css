@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Chelsea+Market&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(../images/background5.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    top: 0%;
+    left:0%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo1{
+    padding-top: 0.6875rem;
+    padding-left: 4.300rem;
+}
+.logo{
+    width: 8.9375rem;
+    display: flex;
+}
+.navigation{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin-right: 5.9375rem;
+    font-family: "actor" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-left: 400px;
+    margin-right: 120px;
+}
+.navigation a{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-bottom: #ffc637;
+}
+
+.navigation a:hover {
+    text-decoration: underline #ffc637;
+    transition: all  ease-in-out;
+}
+
+.navigation img {
+    position: relative;
+    height: 35px;
+    width: 35px;
+}
+.quantity-count {
+    position: absolute;
+    background-color: #ffc637;
+    border-radius: 100rem;
+    width: 2rem;
+    top: 2.5rem;
+    right: 6.5rem;
+}
+
+.main {
+    width: 850px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .back-to-orders-link {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .delivery-date {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .product-info {
+    margin-bottom: 3px;
+    font-size: 30px;
+  }
+  
+  .product-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    filter: drop-shadow(10px 10px 20px #ffc637);
+  }
+  
+  .progress-labels-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .current-status {
+    color: rgb(6, 125, 98);
+  }
+  
+  @media (max-width: 575px) {
+    .progress-labels-container {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .progress-labels-container {
+      flex-direction: column;
+      margin-bottom: 5px;
+    }
+  
+    .progress-label {
+      margin-bottom: 3px;
+    }
+  }
+  
+  .progress-bar-container {
+    height: 25px;
+    width: 100%;
+  
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: green;
+    border-radius: 50px;
+    width: 50%;
+  }
+  
