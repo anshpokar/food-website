@@ -1,2 +1,2 @@
-const dataCart=[];
+export const dataCart=[];
 

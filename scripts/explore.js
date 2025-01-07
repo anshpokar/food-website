@@ -64,6 +64,7 @@
 //     quantity_display=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
 //     document.querySelector('.js-cart').innerHTML=quantity_display;
 // }
+import { dataCart } from "./data/dataCart.js";
 
 let cartQuantity =0;
 
@@ -109,7 +110,7 @@ document.querySelector(".js-pizzaBtn").addEventListener('click', () => {
                 });
                 cartQuantity++;
             }
-            quantityDisplay=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
+            let quantityDisplay=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
             document.querySelector('.js-cart').innerHTML=quantityDisplay;            
         });
     });
@@ -159,7 +160,7 @@ document.querySelector(".js-BurgerBtn").addEventListener('click', () => {
                 });
                 cartQuantity++;
             }
-            quantityDisplay=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
+            let quantityDisplay=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
             document.querySelector('.js-cart').innerHTML=quantityDisplay;
         });
     });
