@@ -1,4 +1,24 @@
-export const dataCart=[];
+export const dataCart=[{
+    productId: 'pizza mar',
+    quantity: 1
+},
+{
+    productId:'burger cla',
+    quantity:2
+},{
+    productId:'burger cla',
+    quantity: 7
+},{
+    productId: 'pizza mar',
+    quantity: 1
+},
+{
+    productId:'burger cla',
+    quantity:2
+},{
+    productId:'burger cla',
+    quantity: 7
+}];
 
  export let cartQuantity =0;
 
