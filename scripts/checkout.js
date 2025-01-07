@@ -32,7 +32,7 @@ dataCart.forEach((cartItem) =>{
                     ${matchingProduct.name}
                 </div>
                 <div class="product-price">
-                    Rs${matchingProduct.price}
+                    Rs ${matchingProduct.price}/-
                 </div>
                 <div class="product-quantity">
                     <span>
