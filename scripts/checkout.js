@@ -10,7 +10,7 @@ dataCart.forEach((cartItem) =>{
 
     pizza.forEach((product)=> {
         if (product.id === productId) {
-            matchingProduct = product;
+            matchingProduct =   product;
         }
     });
 

@@ -43,20 +43,7 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="image">
-                        <img src="images/margirita.png" alt="">
-                    </div>
-                    <div class="item_name">
-                        <h1>Margherita Pizza</h1>
-                    </div>
-                    <div class="item_discription">
-                        <p>A classic italian pizza topped with fresh mozzarella and tangy tomato sause</p>
-                    </div>
-                    <div class="add_to_cart_btn">
-                        <button>Add To Cart</button>
-                    </div>
-                </div>
+        
 
                 <div class="card">
                     <div class="image">
@@ -176,4 +163,27 @@
                     <div class="add_to_cart_btn">
                         <button>Add To Cart</button>
                     </div>
-                </div> -->
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="images/margirita.png" alt="">
+                    </div>
+                    <div class="item_name">
+                        <h1>Margherita Pizza</h1>
+                    </div>
+                    <div class="item_discription">
+                        <p>A classic italian pizza topped with fresh mozzarella and tangy tomato sause</p>
+                    </div>
+                    <div class="add_to_cart_btn">
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                -->
