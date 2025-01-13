@@ -21,7 +21,7 @@ dataCart.forEach((cartItem) =>{
     });
 
     cartSummaryHTML += `
-    <div class="cart-item-container">
+    <div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
         <div class="cart-item-details-grid">
             <div class="cart-item-img">
                 <img class="product-image"
@@ -51,6 +51,7 @@ dataCart.forEach((cartItem) =>{
     `;
 });
 
+
 document.querySelector('.js-order-summary').innerHTML= cartSummaryHTML;
 
 document.querySelectorAll('.js-delete-link')
@@ -58,6 +59,11 @@ document.querySelectorAll('.js-delete-link')
     link.addEventListener('click',()=>{
         const productId =link.dataset.productId;
         removeFromCart(productId);
+        
+        const container = document.querySelector(
+            `.js-cart-item-container-${productId}`
+        );
+        container.remove();
     });
 });
 

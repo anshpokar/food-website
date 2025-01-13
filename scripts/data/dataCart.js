@@ -1,22 +1,22 @@
 export let dataCart=[{
-    productId: 'pizza mar',
+    productId: 'pizza_mar',
     quantity: 1
 },
 {
-    productId:'burger cla',
+    productId:'burger_cla',
     quantity:2
 },{
-    productId:'burger cla',
+    productId:'burger_cla',
     quantity: 7
 },{
-    productId: 'pizza mar',
+    productId: 'pizza_mar',
     quantity: 1
 },
 {
-    productId:'burger cla',
+    productId:'burger_cla',
     quantity:2
 },{
-    productId:'burger cla',
+    productId:'burger_cla',
     quantity: 7
 }];
 
@@ -51,4 +51,5 @@ export function removeFromCart(productId){
     });
 
     dataCart = newCart;
+    // console.log(newCart)
 }
