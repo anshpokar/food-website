@@ -1,6 +1,16 @@
 import { dataCart,cartQuantity,addTocart } from "./data/dataCart.js";
 import { pizza,burger } from "./data/dataProducts.js";
 
+// function updateCartQuantity(){
+//     let cartQuantity=0;
+//                cart.forEach((cartItem) => {
+//                 cartQuantity += cartItem.quantity;
+//                });
+  
+//               document.querySelector('.js-cart').innerHTML=cartQuantity;
+// }
+
+
 
 document.querySelector(".js-pizzaBtn").addEventListener('click', () => {
     let productHtml= ``;
@@ -64,6 +74,7 @@ document.querySelector(".js-BurgerBtn").addEventListener('click', () => {
             </div>`
     });
 
+    
     document.querySelector('.display').innerHTML=productHtml;
 
     document.querySelectorAll('.js_add_to_cart')

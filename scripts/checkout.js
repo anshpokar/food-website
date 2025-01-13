@@ -64,8 +64,22 @@ document.querySelectorAll('.js-delete-link')
             `.js-cart-item-container-${productId}`
         );
         container.remove();
+        updateCartQuantity();
     });
 });
+
+updateCartQuantity();
+
+function updateCartQuantity (){
+    let cartQuantity = 0;
+    dataCart.forEach((cartItem) => {
+        cartQuantity += cartItem.quantity;
+      });
+      
+      document.querySelector('.js-return-to-home-link')
+        .innerHTML = `${cartQuantity} items`;
+    updateCartQuantity();
+}
 
 
 
