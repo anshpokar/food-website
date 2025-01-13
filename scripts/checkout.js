@@ -41,7 +41,7 @@ dataCart.forEach((cartItem) =>{
                     <button class="update-quantity link-primary">
                     Update
                     </button>
-                    <button class="delete-quantity link-primary">
+                    <button class="delete-quantity link-primary js-delete-link">
                     Delete
                     </button>
                 </div>
