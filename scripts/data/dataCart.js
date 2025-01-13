@@ -1,4 +1,4 @@
-export const dataCart=[{
+export let dataCart=[{
     productId: 'pizza mar',
     quantity: 1
 },
@@ -37,4 +37,18 @@ export function addTocart(productId){
             }
             let quantityDisplay=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
             document.querySelector('.js-cart').innerHTML=quantityDisplay; 
+}
+
+
+
+export function removeFromCart(productId){
+    const newCart = [];
+    
+    dataCart.forEach((cartItem) =>{
+        if (cartItem.productId !== productId){
+            newCart.push(cartItem);
+        };
+    });
+
+    dataCart = newCart;
 }
