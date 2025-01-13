@@ -1,26 +1,34 @@
-export let dataCart=[{
-    productId: 'pizza_mar',
-    quantity: 1
-},
-{
-    productId:'burger_cla',
-    quantity:2
-},{
-    productId:'burger_cla',
-    quantity: 7
-},{
-    productId: 'pizza_mar',
-    quantity: 1
-},
-{
-    productId:'burger_cla',
-    quantity:2
-},{
-    productId:'burger_cla',
-    quantity: 7
-}];
+export let dataCart=JSON.parse(localStorage.getItem('dataCart'));
 
- export let cartQuantity =0;
+if (!dataCart){
+    dataCart = [{
+        productId: 'pizza_mar',
+        quantity: 1
+    },
+    {
+        productId:'burger_cla',
+        quantity:2
+    },{
+        productId:'burger_cla',
+        quantity: 7
+    },{
+        productId: 'pizza_mar',
+        quantity: 1
+    },
+    {
+        productId:'burger_cla',
+        quantity:2
+    },{
+        productId:'burger_cla',
+        quantity: 7
+    }];
+}
+
+function saveToStorage(){
+    localStorage.setItem('dataCart', JSON.stringify(dataCart));
+}
+
+export let cartQuantity =0;
 
 export function addTocart(productId){
     let matchingItem = dataCart.find(cartItem => cartItem.productId === productId);
@@ -35,10 +43,10 @@ export function addTocart(productId){
                 });
                 cartQuantity++;
             }
+            saveToStorage();
             let quantityDisplay=`<img src="images/cart.png" alt=""><div class="quantity-count">${cartQuantity}</div>`;
             document.querySelector('.js-cart').innerHTML=quantityDisplay; 
 }
-
 
 
 export function removeFromCart(productId){
@@ -51,5 +59,6 @@ export function removeFromCart(productId){
     });
 
     dataCart = newCart;
+    saveToStorage();
     // console.log(newCart)
 }

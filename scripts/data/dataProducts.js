@@ -42,7 +42,7 @@ export const pizza = [
         price : 300
     },
     {
-        id : "pizza _pep",
+        id : "pizza_pep",
         image : "images/Pepperoni_pizza.png",
         name : "Pepperoni Pizza",
         disc : "Topped with pepperoni slices,mozzarella cheese, and a flavorful tomato sauce.",
