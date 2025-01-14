@@ -2,7 +2,12 @@ import { dataCart,cartQuantity,addTocart,saveToStorage } from "./data/dataCart.j
 import { pizza,burger } from "./data/dataProducts.js";
 // import { updateCartQuantity } from "./checkout.js";
 
-
+function updateCartQuantity(cartQuantity){
+    dataCart.forEach((cartItem)=>{
+        cartItem.quantity = cartQuantity;
+    });
+    return cartQuantity;
+}
 
 document.querySelector(".js-pizzaBtn").addEventListener('click', () => {
     let productHtml= ``;
@@ -30,12 +35,15 @@ document.querySelector(".js-pizzaBtn").addEventListener('click', () => {
 
     document.querySelector('.display').innerHTML=productHtml;
 
+    updateCartQuantity(cartQuantity);
+
     document.querySelectorAll('.js_add_to_cart')
     .forEach((button)=>{
         button.addEventListener('click', () =>{
             const productId=button.dataset.productId;  
 
             addTocart(productId);
+            // updateCartQuantity(cartQuantity);
         });
     });
 });
@@ -69,12 +77,15 @@ document.querySelector(".js-BurgerBtn").addEventListener('click', () => {
     
     document.querySelector('.display').innerHTML=productHtml;
 
+    updateCartQuantity(cartQuantity);
+
     document.querySelectorAll('.js_add_to_cart')
     .forEach((button)=>{
         button.addEventListener('click', () =>{
             const productId=button.dataset.productId;
 
             addTocart(productId);
+            updateCartQuantity(cartQuantity);
         });
     });
 });
