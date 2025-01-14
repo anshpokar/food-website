@@ -67,10 +67,10 @@ document.querySelectorAll('.js-delete-link')
         updateCartQuantity();
     });
 });
-
+// let cartQuantity =0;
 updateCartQuantity();
 
-function updateCartQuantity (){
+export function updateCartQuantity (){
     let cartQuantity = 0;
     dataCart.forEach((cartItem) => {
         cartQuantity += cartItem.quantity;
