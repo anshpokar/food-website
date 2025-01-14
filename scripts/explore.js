@@ -2,11 +2,6 @@ import { dataCart,cartQuantity,addTocart,saveToStorage } from "./data/dataCart.j
 import { pizza,burger } from "./data/dataProducts.js";
 // import { updateCartQuantity } from "./checkout.js";
 
-displayCartQuantityOnCart(cartQuantity);
-
-function displayCartQuantityOnCart(cartQuantity){
-    // updateCartQuantity();
-}
 
 
 document.querySelector(".js-pizzaBtn").addEventListener('click', () => {
