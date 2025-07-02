@@ -13,7 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 100%; 
     display: flex;
     flex-direction: column;
 }
@@ -46,6 +46,25 @@ nav{
     font-size: 1.75rem;
     margin-left: 400px;
     margin-right: 120px;
+}
+@media screen and (max-width : 600px){
+    .navigation{
+        flex-direction: row;
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 5.2rem;    
+    }
+    .logo1{
+        padding-left: 2.5rem;
+    }
+
 }
 .navigation a{
     display: flex;
@@ -253,7 +272,3 @@ nav{
     margin-top: 10px;
     cursor:pointer;
 }
-
-
-
-

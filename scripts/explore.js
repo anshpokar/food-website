@@ -88,6 +88,4 @@ document.querySelector(".js-BurgerBtn").addEventListener('click', () => {
             updateCartQuantity(cartQuantity);
         });
     });
-});
-
-// document.querySelector('.js-cart').innerHTML=
+}); 

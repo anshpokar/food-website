@@ -189,3 +189,102 @@ nav {
   justify-content: end;
   margin-left: 235px;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .fullpage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content,
+  .form_background {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .name input,
+  .password input,
+  .password button {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .signup_text {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .whole_form {
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .chhef {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .ready_to_serve p {
+    margin: 40px auto 20px;
+    text-align: center;
+    font-size: 32px;
+    height: auto;
+    width: 90%;
+  }
+
+  .forget_password {
+    margin-left: auto;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation {
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .name input,
+  .password input,
+  .password button {
+    font-size: 16px;
+  }
+
+  .ready_to_serve p {
+    font-size: 24px;
+  }
+
+  .signup_text h1 {
+    font-size: 24px;
+  }
+
+  .form_background p {
+    font-size: 16px;
+  }
+}
